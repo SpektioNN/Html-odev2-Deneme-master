@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    /* Navbar başlangıç */
+ }
+.navbar{
+    background:#5b71b5;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.navbar img{
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+ }
+.navbar ul li{
+    width: 150px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:darkgrey;
+ }
+.navbar ul li a:hover{
+    color: black;
+}
+.navbar .fa-solid {
+    margin-right: 10px;
+}
+    /* Navbar bitiş */
+
+    /*Hakkımda sayfası */
+.hakkimda-main{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 600px;
+
+}
+.hakkimda-left{
+    width: 600px;
+    height: 500px;
+    background-color: darkgrey;
+}
+.hakkimda-left h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+.hakkimda-left p {
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+
